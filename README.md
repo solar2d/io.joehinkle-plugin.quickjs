@@ -31,8 +31,7 @@ local QuickJs = require "plugin.solarquickjs"
 ```lua
 local returnedMessage = QuickJs.run {
     js = [[
-        var message = "hello from js!"
-        return message
+        return "hello from js!"
     ]],
     lua = function()
         return "hello from lua!"
@@ -186,7 +185,6 @@ QuickJs.run {
 }
 ```
 
-
 ## Support
 
 | Platform | Details |
@@ -199,6 +197,10 @@ QuickJs.run {
 | TVOS Simulator | always runs Lua |
 | Corona Simulator (Mac) | always runs Lua |
 | Corona Simulator (Windows) | always runs Lua |
+
+## Links 
+
+- Form post: https://forums.solar2d.com/t/new-plugin-run-javascript-without-leaving-lua/351750
 
 # Shameless plugs
 
